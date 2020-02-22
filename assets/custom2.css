@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right, #000000, #555555, #adadad);
+}
+input{
+    text-transform: uppercase;
+}
+.bgsignupcontainer{
+    margin: .25rem 1rem;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.right-container{
+    border: 2px #ffffff groove;
+    border-top-left-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+    box-shadow: 0 1px 1rem #ffee58;
+    background-color: #000000;
+}
+.row form h4{
+    font-weight: bolder;
+    color: red;
+}
+.row form h6{
+    color: deepskyblue;
+}
+.label-txt{
+    color: #ffff00;
+}
+.txt-color{
+    color: white;
+}
+.required{
+    color: red;
+}
+.margin-span{
+    margin-top: 30px;
+}
+.bginput{
+    border: none;
+    margin-top: .5rem;
+    background: rgba(25,25,25, .9)  ;
+    border-radius: 4px;
+}
+.right-container .col-md-12 .btn-primary{
+    border-radius: 1.5rem;
+    border: none;
+    width: 120px;
+    background-color: #ffff00;
+    font-weight: 600;
+    color: red;
+    transition: 1s;
+}
+.right-container .col-md-12 .btn-primary:hover{
+    color: white;
+    background-color: deepskyblue;
+}
+.left-container{
+    margin-top: 20vh;
+    color: deepskyblue;
+    margin-bottom: 20vh;
+}
+.left-container h3{
+    color: red;
+}
+.left-container .btn-primary{
+    border-radius: 1.5rem;
+    border: none;
+    width: 120px;
+    background-color: #ffff00;
+    font-weight: 600;
+    color: red;
+    transition: 1s;
+}
+.left-container img{
+    margin-top: 20px;
+    margin-bottom: 38px;
+    width: 80px;
+    animation: mover 1s infinite alternate;
+}
+@keyframes mover {
+    0%{transform: translateY(0);}
+    100%{transform: translateY(-20px);}
+}
